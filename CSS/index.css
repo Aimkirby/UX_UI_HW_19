@@ -1,0 +1,340 @@
+
+body{
+    background-color: rgb(31, 0, 59);
+    height: 100%;
+}
+
+/*Navigation*/
+.Inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.Book{
+    color: rgb(249, 223, 255);
+    background-color: rgb(224, 66, 255);
+    width: 185px;
+    height: 78px;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    border-radius: 75px;
+}
+
+.Nav{
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0, 0.9);
+    position:fixed;
+    z-index: 100;
+    top:0;  
+    left:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ulN{
+    position: relative;
+    display:flex;
+    width: 100%;
+    height: 50px;
+    top: 25%;
+    text-align: center;
+    margin-left: auto;
+    color: white;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 35px;
+    
+}
+
+.ulN li{
+padding: 20px;
+height: 50px;
+margin-bottom: 0px;
+}
+
+/*HEROLARGEIMAGE*/
+.hero-image img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Background.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text h1{
+    color: white;
+    font-size: 383.3px;
+    font-family: sans-serif;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, 0%);
+}
+
+
+/*ABOUR ME SECTION*/
+
+
+.Content{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-top: 90px;
+}
+
+.Content p1{
+    padding: 10px;
+    text-align: center;
+    width: 613px;
+    height: 408px;
+    font-family: sans-serif;
+    font-size: 25px ;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.5px;
+    color: #F4EDFF;
+}
+
+.Content Rbutton{
+    width: 339px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #F4EDFF;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.5px; 
+}
+
+.content img{
+    border-left: 20px;
+}
+
+/* . is a class selector # is an id selector */
+
+/* My UX Skills SECTION */
+.flexContainer {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    background-color: rgb(237, 230, 247);
+    text-align: center;
+}
+
+.FlexArea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+#headingS {
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#ParaS {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 100;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+#ImgS {
+    border-radius: 50px;
+}
+
+
+
+#ButtonS {
+    border-radius: 30px;
+    width: 150px;
+    height: 75px;
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    border-color: pink;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+
+}
+
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+
+/* MY WORK SECTION */
+
+.myWork{
+    margin-top: 10px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.workGridArea {
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+img {
+    border-radius: 30px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.ButtonW {
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: auto;
+    border-color: pink;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.myWorkAll{
+display: flex;
+flex-direction: column;
+padding: 10px;
+margin: 0px;
+font-family: sans-serif;
+}
+
+.myWorkWords{
+padding: 0px;
+margin-right: 300px;
+}
+
+.headingW{
+    font-size: 30px;
+}
+
+.headingW{
+    font-size: 20px;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5%;
+    background-color: rgb(247, 237, 255);
+    width: 100%;
+}
+
+.ulF{
+    width: 50%;
+    margin-left: auto;
+    color: rgb(25, 0, 58);
+    list-style: none;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+/* fix this */
+@media only screen and (max-width:600) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "headingS"
+            "ParaS"
+            "ButtonS"
+            "ImgS"
+        ;
+    }
+
+    .workGridArea {
+        flex-direction: column;
+        width: 100%;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "Purrfect"
+            "UNICEF"
+            "pending1"
+            "pending2"
+        ;
+    }
+}
