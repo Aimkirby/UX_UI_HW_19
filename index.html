@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html>
-<link rel="Stylesheet" href="CSS/index.css">
-<link rel="Stylesheet" href="js/index.js">
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Aimkirby's Portfiolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Stylesheet" href="CSS/index.css">
+<link rel="Stylesheet" href="js/index.js">
 </head>
 
 <body>
 
     <!-- HEADER SECTION -->
 
-    <header Class="Nav">
+    <header>
 
         <div Class="logo">
-            <img src="Images/logo.png" alt="Aimee's Logo" width="115" height="100">
+            <img src="Images/Logo Default.png" alt="Aimee's Logo" width="115" height="100">
         </div>
 
-        <nav class="Inline-block">
-            <ulN class="ulN">
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ulN>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+    
         </nav>
+        <a Class="Book"><button> Book Now
+        </button></a>
+    
 
-        <button Class="Book"> Book
-
-        </button>
     </header>
 
     <!-- HERO IMAGE SECTION -->
 
-    <div Class="hero-image">
-        <img src="Images/Background.jpg" alt="HERO IMAGE" width=100% height=700>
-       <div class="hero-text">
-        <h1> Aimee </h1>
-       </div>
+    <div Class="hero">
+            <img src="Images/hero gif.gif" alt="HERO IMAGE" width=100% height=700>
+            <h1> Aimee </h1>
+        
     </div>
 
     <br>
@@ -129,8 +136,8 @@
         <h3>View all projects</h3>
     </section>
 
-<!-- MY SKILLS SECTION -->
-      <!--  My UX Skills section coded using CSS flex -->
+    <!-- MY SKILLS SECTION -->
+    <!--  My UX Skills section coded using CSS flex -->
 
     <section class="mySkills">
         <h1>My UX Skills</h1>
@@ -162,7 +169,7 @@
 
     <!-- TOOL I KNOW SECTION -->
 
-<!-- LET CONNECT SECTION -->
+    <!-- LET CONNECT SECTION -->
 
     <!-- FOOTER SECTION -->
 
@@ -173,6 +180,15 @@
             <li>Contact</li>
         </ulF>
     </footer>
+
+
+    <div class="preloader">
+        <img src="Images/Logo Default.png">
+       </div>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/template.js"></script>
+<script src="js/index.js"></script>
 
 </body>
 
