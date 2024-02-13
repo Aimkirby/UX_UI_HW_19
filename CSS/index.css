@@ -309,23 +309,79 @@ margin-right: 300px;
 
 /*FOOTER*/
 
-.footer{
-    display: inline-block;
-    vertical-align: top;
+footer{
     padding: 5%;
+    margin-top: 100px;
     background-color: rgb(247, 237, 255);
-    width: 100%;
+    width: 90%;
 }
 
-.ulF{
-    width: 50%;
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.foot_links{
     margin-left: auto;
-    color: rgb(25, 0, 58);
     list-style: none;
     display: flex;
-    font-family: sans-serif;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
+
+.foot_links li a:hover {
+    color: pink
+}
+
+
+.footer a{
+    color: rgb(25, 0, 58);
+    font-size: 25px;
+    padding: 50px;
+    align-items: center;
+}
+
+.contact {
+    list-style: none; 
+    align-items: center;
+    flex-direction: column;   
+}
+
+.contact a:hover {
+    color: pink
+}
+
+.footer_logo {
+    width: 20vh;
+    height: 20vh;
+}
+
+.footer img {
+    border-radius: 100%;
+    width: 20vh;
+    height: 20vh;
+}
+
+.back_top{
+    text-align: center;
+    padding: 0 ;
+    margin: 0;
+}
+
+.back_top :hover{
+    color: pink
+}
+
+.copyright{
+    padding: 0;
+    margin: 0;
+}
+
+
 
 
 .preloader {
