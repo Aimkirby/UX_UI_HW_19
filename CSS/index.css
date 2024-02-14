@@ -59,7 +59,7 @@ text-align: center;
 }
 
 .nav_links li a:hover {
-    color: pink
+    color: pink;
     /*add hover boxes with rounded edges*/
 }
 
@@ -103,37 +103,38 @@ button:hover{
 /*ABOUR ME SECTION*/
 
 
-.Content{
-    display:flex;
-    flex-direction: row-reverse;
+.About_Me{
     margin-top: 90px;
 }
 
-.Content p1{
-    padding: 10px;
-    text-align: center;
-    width: 613px;
-    height: 408px;
-    font-family: sans-serif;
-    font-size: 25px ;
-    font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 2.5px;
-    color: #F4EDFF;
+.Content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
 
-.Content Rbutton{
-    width: 339px;
-    height: 36px;
-    flex-shrink: 0;
-    color: #F4EDFF;
-    font-family: sans-serif;
+.about_content{
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: left;
+    width: 613px;
+    height: 408px;
+    font-family: "DM Sans";
+    font-size: 25px ;
+font-weight: 700;
+letter-spacing: 2.5px;
+
+}
+
+.About_Resume{
     font-size: 25px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 2.5px; 
+    margin-left: 100px;
+}
+
+.About_Resume a :Hover { 
+    color: pink;
 }
 
 .content img{
